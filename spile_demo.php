@@ -3,7 +3,7 @@
 
 //Obtaining a first-level directory
 
-$first_level=['wwww.yuhuagu.com/tupian/ye/list_37_1.html','2'];
+//$first_level=['wwww.yuhuagu.com/tupian/ye/list_37_1.html','2'];
 
 function generating_first_level($baseurl,$length)
 {
@@ -21,6 +21,7 @@ $baseurl='http://www.yuhuagu.com/tupian/ye/list_37_';
 
 $first_level=generating_first_level($baseurl,8);
 
+print_r($first_level);
 
 //test
 
@@ -45,7 +46,7 @@ $first_level=generating_first_level($baseurl,8);
 
 
 
-$picture_address=[1,2,3];
+//$picture_address=[1,2,3];
 
 
 //batch download
